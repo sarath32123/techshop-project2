@@ -1,0 +1,445 @@
+* {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    width: 1075px;
+}
+
+header .h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+header i {
+    color: white;
+}
+
+.a {
+    margin-left: 700px;
+}
+
+header i:hover {
+    color: #c10505;
+}
+
+footer {
+    align-content: center;
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    height: 300px;
+}
+
+.techshop {
+    margin-left: 20px;
+    font-size: xx-large;
+}
+
+.help {
+    margin-left: 250px;
+    font-size: x-large;
+}
+
+.policies {
+    margin-left: 200px;
+    font-size: x-large;
+}
+
+.company {
+    margin-left: 195px;
+    font-size: x-large;
+}
+
+.subscribe {
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 1px;
+}
+
+.faq {
+    font-size: small;
+    margin-left: 420px;
+}
+
+.return {
+    margin-left: 210px;
+    font-size: small;
+}
+
+.about {
+    margin-left: 200px;
+    font-size: small;
+}
+
+.track {
+    margin-top: 20px;
+    margin-left: 420px;
+    font-size: small;
+}
+
+.security {
+    margin-left: 170px;
+    font-size: small;
+}
+
+.contact {
+    margin-left: 230px;
+    font-size: small;
+}
+
+.cancel {
+    margin-left: 420px;
+    font-size: small;
+}
+
+.sitemap {
+    margin-left: 170px;
+    font-size: small;
+}
+
+.service {
+    margin-left: 230px;
+    font-size: small;
+}
+
+.r {
+    margin-left: 420px;
+    font-size: small;
+}
+
+.privacy {
+    margin-left: 165px;
+    font-size: small;
+}
+
+.career {
+    margin-left: 195px;
+    font-size: small;
+}
+
+.warranty {
+    margin-left: 420px;
+    font-size: small;
+}
+
+.terms {
+    margin-left: 160px;
+    font-size: small;
+}
+
+.affiliate {
+    margin-left: 160px;
+    font-size: small;
+}
+
+b {
+    color: rgb(165, 165, 165);
+}
+
+b:hover {
+    color: red;
+}
+
+.email {
+    border: 1px solid white;
+    color: white;
+    background-color: #333;
+    align-content: center;
+    margin-top: 20px;
+    height: 30px;
+    width: 280px;
+}
+
+.sub {
+    color: white;
+    background-color: red;
+    width: 95px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+hr {
+    background-color: rgb(106, 106, 107);
+}
+
+p {
+    position: absolute;
+    margin-left: 20px;
+    color: rgb(151, 151, 151);
+}
+
+.facebook {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 5px;
+}
+
+.twitter {
+    position: absolute;
+    margin-left: 880px;
+    margin-top: 5px;
+}
+
+.insta {
+    position: absolute;
+    margin-left: 915px;
+    margin-top: 5px;
+}
+
+.linked {
+    margin-left: 950px;
+    margin-top: 5px;
+}
+
+.scrolling-container {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    padding-left: 500px;
+}
+
+.pre {
+    position: absolute;
+}
+
+img {
+    width: 500px;
+    padding-left: 500px;
+}
+
+.w {
+    padding-top: 10px;
+}
+
+.pre {
+    padding-left: 50px;
+    padding-top: 100px;
+    color: rgb(120, 120, 120);
+    font-size: x-large;
+}
+
+span {
+    color: white;
+    font-size: xx-large;
+}
+
+.rupee {
+    padding-top: 15px;
+    position: absolute;
+}
+
+i {
+    padding-top: 0px;
+    position: absolute;
+    color: white;
+}
+
+.shop {
+    align-content: center;
+    text-align: center;
+    color: white;
+    background-color: #c10505;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    padding-left: 0px;
+    width: 450px;
+    height: 200px;
+    max-width: 150px;
+}
+
+.image-name {
+    font-weight: bold;
+}
+
+.sony {
+    padding-bottom: 70px;
+}
+
+.son {
+    padding-bottom: 150px;
+}
+
+.jbl {
+    padding-bottom: 70px;
+}
+
+.feature {
+    color: white;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+
+.top {
+    color: white;
+    font-size: xx-large;
+}
+
+.pro {
+    display: flex;
+    gap: 100px;
+    font-size: x-large;
+    padding-left: 120px;
+}
+
+.all {
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: red;
+    width: 50px;
+    align-content: center;
+    text-align: center;
+}
+
+.all:hover {
+    color: white;
+    scale: 1.1;
+}
+
+.hp:hover {
+    color: white;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: red;
+    scale: 1.1;
+}
+
+.eb:hover {
+    color: white;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: red;
+    scale: 1.1;
+}
+
+.ep:hover {
+    color: white;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: red;
+    scale: 1.1;
+}
+
+.nb:hover {
+    color: white;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: red;
+    scale: 1.1;
+}
+
+.stars {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: red;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-item {
+    width: 270px;
+    height: 400px;
+    padding: 1px;
+    border: 1px solid #ddd;
+    border-radius: px;
+    background-color: black;
+}
+
+.grid-item img {
+    padding-top: 10px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+.item-name {
+    color: white;
+    font-size: x-large;
+}
+
+.bass {
+    padding-top: 10px;
+    font-size: x-large;
+}
+
+.and {
+    font-size: xx-large;
+    padding-left: 40px;
+    padding-top: 150px;
+}
+
+.stu {
+    font-size: x-large;
+    padding-left: 20px;
+}
+
+.Add-to-cart {
+    color: white;
+    background-color: red;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.our-advantages {
+    color: white;
+    font-size: xx-large;
+}
+
+.express {
+    position: absolute;
+    font-size: small;
+    padding-left: 45px;
+}
+
+.brand {
+    position: absolute;
+    padding-left: 290px;
+}
+
+.exciting {
+    position: absolute;
+    padding-left: 550px;
+}
+
+.secure {
+    padding-left: 850px;
+}
+
+.tea i {
+    color: red;
+}

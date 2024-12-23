@@ -1,0 +1,398 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Navbar {
+    height: 35px;
+    width: 100%;
+    background-color: #141414;
+    display: flex;
+    position: fixed;
+}
+
+.icons {
+    margin-left: 20px;
+    /* background-color: yellow; */
+    align-content: center;
+    display: flex;
+    margin-left: 870px;
+    color: aliceblue;
+}
+
+.para {
+    /* background-color: rgb(192, 21, 175); */
+    margin-left: 40px;
+    align-content: center;
+    color: aliceblue;
+}
+
+.icon1 {
+    /* background-color: chartreuse; */
+    align-content: center;
+    margin-left: 30px;
+}
+
+.icon2 {
+    /* background-color: darkorange; */
+    align-content: center;
+    margin-left: 30px;
+}
+
+.icon3 {
+    /* background-color: rgb(203, 24, 24); */
+    align-content: center;
+    margin-left: 30px;
+}
+
+.hyper {
+    color: aliceblue;
+}
+
+.cartBody {
+    height: 600px;
+    width: 100%;
+    background-color: #141414;
+    display: flex;
+}
+
+.cartScroll {
+    overflow-y: auto;
+    height: 400px;
+    width: 55%;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #161819;
+    margin: 20px 0;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.cartScroll>.itemBox {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.summery {
+    height: 400px;
+    width: 45%;
+    background-color: #141414;
+    margin-top: 50px;
+}
+
+.itemBox {
+    width: 100%;
+    height: 200px;
+    background-color: #161819;
+}
+
+.line {
+    color: antiquewhite;
+    width: 100%;
+}
+
+.image {
+    width: 30%;
+    height: 200px;
+    background-color: #161819;
+}
+
+.pic {
+    width: 80%;
+    height: 170px;
+    margin-left: 20px;
+}
+
+.infor {
+    background-color: (57, 55, 55);
+    width: 70%;
+    height: 200px;
+}
+
+.cartPara {
+    margin-top: 20px;
+    background-color: #161819;
+    color: aliceblue;
+}
+
+.first {
+    display: flex;
+    background-color: #161819;
+}
+
+.trash {
+    margin-top: 20px;
+    margin-left: 60px;
+    color: aliceblue;
+}
+
+.dis {
+    background-color: #161819;
+}
+
+.rate {
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.cartBut {
+    display: flex;
+    background-color: #161819;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.plus {
+    width: 8%;
+    height: 100%;
+    background-color: #222222;
+    text-align: center;
+    color: aliceblue;
+}
+
+.minus {
+    width: 8%;
+    height: 100%;
+    background-color: #222222;
+    text-align: center;
+    color: aliceblue;
+}
+
+.one {
+    width: 8%;
+    height: 100%;
+    background-color: #161819;
+    text-align: center;
+    color: aliceblue;
+}
+
+.delete {
+    font-size: small;
+}
+
+.sum {
+    display: flex;
+    background-color: #141414;
+    width: 100%;
+    height: 40%;
+}
+
+.cartsum {
+    width: 50%;
+}
+
+.p1 {
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.p2 {
+    margin-top: 20px;
+    color: #0c450b;
+}
+
+.p3 {
+    margin-top: 20px;
+    margin-left: 26px;
+    color: #0c450b;
+}
+
+.p4 {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: aliceblue;
+}
+
+.sumh {
+    margin-left: 40px;
+    color: aliceblue;
+}
+
+.total {
+    display: flex;
+}
+
+.bajb {
+    width: 100%;
+    background-color: #141414;
+    margin-top: 30px;
+}
+
+.checkout {
+    height: 40px;
+    width: 60%;
+    background-color: #d00404;
+    margin-left: 40px;
+    color: aliceblue;
+    font-size: medium;
+    border-radius: 2px;
+    border: solid #d00404 1px;
+}
+
+.block {
+    background-color: rgb(25, 22, 22);
+    height: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 420px;
+    background-color: aqua;
+}
+
+.footer1 {
+    width: 100%;
+    height: 320;
+    background-color: rgb(11, 11, 11);
+    ;
+    display: flex;
+}
+
+.footli {
+    color: rgb(157, 153, 153);
+    text-decoration: none;
+    height: 0;
+}
+
+.footer2 {
+    width: 100%;
+    background-color: aquamarine;
+    height: 100px;
+    display: flex;
+}
+
+.footb1 {
+    width: 60%;
+    background-color: rgb(11, 11, 11);
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+.footb2 {
+    width: 40%;
+    background-color: rgb(11, 11, 11);
+    height: 100px;
+}
+
+.foolink {
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.section1 {
+    width: 35%;
+    height: 320px;
+    color: aliceblue;
+    background-color: rgb(11, 11, 11);
+}
+
+.section2 {
+    margin-right: 100px;
+    margin-left: 40px;
+    color: aliceblue;
+    background-color: rgb(11, 11, 11);
+}
+
+.footh {
+    margin-top: 40px;
+}
+
+.footh1 {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.footp {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.footi {
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 250px;
+    height: 35px;
+    border-radius: 2.5px;
+    border: 1px solid;
+    border-color: #c6d4dc;
+}
+
+.footb {
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 35px;
+    width: 140px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 2px;
+    border: 2px solid red;
+}
+
+.footText {
+    margin-left: 25px;
+    color: aliceblue;
+}
+
+.footlogos {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: aliceblue;
+}
+
+.footicon {
+    margin-left: 30px;
+}
+
+.body4 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(25, 22, 22);
+}
+
+.Advantages {
+    width: 100%;
+    height: 40px;
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.symb {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo {
+    margin-left: 10px;
+    color: red;
+}
+
+.garanty {
+    margin-left: 10px;
+}
+
+.above {
+    font-size: medium;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.below {
+    font-size: small;
+    color: aliceblue;
+}
+
+.h {
+    color: aliceblue;
+    margin-left: 500px;
+}
